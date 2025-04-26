@@ -1,0 +1,109 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "company": "Infrrd",
+      "email": "john@infrrd.com",
+      "contact": "1234567890",
+      "designation": "Engineer",
+      "avatar": "https://avatars.dicebear.com/api/initials/jd.svg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 3,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 4,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 5,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 6,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 7,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 7,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 8,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },
+    {
+      "id": 29,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },    {
+      "id": 11,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    },    {
+      "id": 12,
+      "name": "Jane Smith",
+      "company": "Infrrd",
+      "email": "jane@infrrd.com",
+      "contact": "0987654321",
+      "designation": "Manager",
+      "avatar": "https://avatars.dicebear.com/api/initials/js.svg"
+    }
+
+  ]
