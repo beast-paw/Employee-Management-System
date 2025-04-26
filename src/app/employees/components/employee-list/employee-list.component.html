@@ -1,0 +1,32 @@
+<div class="employee-list">
+  <div class="actions action">
+    <button (click)="addEmployee()">Add Employee</button>
+  </div>
+  <div class="employee-header">
+    <div>Avatar</div>
+    <div>Name</div>
+    <div>Designation</div>
+    <div>Company</div>
+    <div>Email</div>
+    <div>Contact</div>
+    <div>Actions</div>
+  </div>
+  <div *ngFor="let emp of paginatedEmployees" class="employee-card">
+    <div><img [src]="emp.avatar" alt="{{ emp.name }}" /></div>
+    <div>{{ emp.name }}</div>
+    <div>{{ emp.designation }}</div>
+    <div>{{ emp.company }}</div>
+    <div>{{ emp.email }}</div>
+    <div>{{ emp.contact }}</div>
+    <div class="actions">
+      <a [routerLink]="['view', emp.id]">View</a>
+      <a [routerLink]="['edit', emp.id]">Edit</a>
+      <button (click)="deleteEmployee(emp.id)">Delete</button>
+    </div>
+  </div>
+  <div class="pagination">
+    <button *ngFor="let p of [].constructor(totalPages()); let i = index" (click)="setPage(i + 1)">
+      {{ i + 1 }}
+    </button>
+  </div>
+</div>

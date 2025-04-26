@@ -1,0 +1,24 @@
+<div class="form-wrapper">
+  <h2>{{ mode === 'add' ? 'Add Employee' : mode === 'edit' ? 'Edit Employee Details' : 'Employee Details' }}</h2>
+  <form *ngIf="employee" (ngSubmit)="save()">
+    <label>Name</label>
+    <input [(ngModel)]="employee.name" name="name" required [readonly]="mode === 'view'" />
+
+    <label>Company</label>
+    <input [(ngModel)]="employee.company" name="company" required [readonly]="mode === 'view'" />
+
+    <label>Email</label>
+    <input type="email" [(ngModel)]="employee.email" name="email" required [readonly]="mode === 'view'" />
+
+    <label>Contact</label>
+    <input [(ngModel)]="employee.contact" name="contact" required [readonly]="mode === 'view'" />
+
+    <label>Designation</label>
+    <input [(ngModel)]="employee.designation" name="designation" required [readonly]="mode === 'view'" />
+
+    <div class="buttons">
+      <button *ngIf="mode !== 'view'" type="submit">Save</button>
+      <button type="button" (click)="goBack()">Back</button>
+    </div>
+  </form>
+</div>
